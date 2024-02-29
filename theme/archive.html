@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<!--
+ // WEBSITE: https://furioustheme.com
+ // GITHUB: https://github.com/furioustheme/
+-->
+
+<html lang="En">
+
+<head>
+  <meta charset="utf-8">
+  <title>Devlog</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Slick -->
+  <link rel="stylesheet" href="plugins/slick/slick.min.css">
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="plugins/font-awesome/fontawesome.min.css">
+  <link rel="stylesheet" href="plugins/font-awesome/brands.css">
+  <link rel="stylesheet" href="plugins/font-awesome/solid.css">
+
+  <!-- fonts -->
+  <link rel="stylesheet" href="plugins/fonts/fonts.css">
+  
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/logo-black.png" type="image/x-icon">
+  <link rel="icon" href="images/logo-black.png" type="image/x-icon">
+
+</head>
+
+<body> 
+
+  <div class="pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="switch dark-mode-switch position-relative d-inline-block" id="toggle-button"  onclick="themeToggle()">
+            <span class="checkmark">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" width="20" height="20" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000">
+                <mask id="m">
+                  <circle class="masker" cx="7.5" cy="7.5" r="8.5" fill="#fff" />
+                </mask>
+                <g mask="url(#m)">
+                  <path class="sun" d="M7.5 1.5v-1m0 13.99v-.998m6-5.997h1m-13 0h-1m2-4.996l-1-1m12 0l-1 1m-10 9.993l-1 1m12 0l-1-1m-2-4.997a2.999 2.999 0 01-3 2.998 2.999 2.999 0 113-2.998z" />  
+                </g>
+                <path class="moon" fill="white" d="M1.66 11.362A6.5 6.5 0 007.693.502a7 7 0 11-6.031 10.86z" />  
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!--================== Section Start ==================-->
+<section class="section pt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-lg-3 mb-5 mb-md-0">
+  <img src="images/image-2.png" alt="img" class="rounded-circle mb-4" />
+  <h2 class="text-uppercase">Alex smith</h2>
+  <h3 class="h5 fw-normal designation mb-4">Web Developer, UI Designer</h3>
+  <p class="mb-4">
+    Hi! I’m Alex Smith. you come here for something in particular or just
+    general Riker-bashing blowing into maximum
+  </p>
+  <ul class="list-inline social-icon mb-5">
+    <li class="list-inline-item">
+      <a href="#">
+        <i class="fab fa-facebook-f icon-hover"></i>
+        <i class="fab fa-facebook-f"></i
+      ></a>
+    </li>
+    <li class="list-inline-item">
+      <a href="#">
+        <i class="fab fa-twitter icon-hover"></i>
+        <i class="fab fa-twitter"></i
+      ></a>
+    </li>
+    <li class="list-inline-item">
+      <a href="#">
+        <i class="fab fa-linkedin icon-hover"></i>
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a href="#">
+        <i class="fab fa-github icon-hover"></i>
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  </ul>
+  <a href="#" class="btn btn-lg border mb-5"
+    >Send mail <i class="fas fa-arrow-right"></i
+  ></a>
+
+  <h4 class="mb-4">categories</h4>
+
+  <div class="categories-list">
+    <ul id="cat-li">
+      <li class="active"><span></span> javascript</li>
+      <li><span></span> python</li>
+      <li><span></span> html</li>
+      <li><span></span> css4</li>
+      <li><span></span> UI/UX Design</li>
+    </ul>
+  </div>
+  <!--     
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="check1">
+        <label class="form-check-label" for="check1">
+            javascript
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+        <label class="form-check-label" for="flexCheckChecked">
+            python
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="check2">
+        <label class="form-check-label" for="check2">
+            javascript
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="check3">
+        <label class="form-check-label" for="check3">
+            html
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="check4">
+        <label class="form-check-label" for="check4">
+            css4
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+            UI/UX Design
+        </label>
+    </div> -->
+
+  <ul class="nav nav-pills flex-column my-5" id="menu">
+    <li class="nav-item">
+      <a href="index.html" class="@@home nav-link px-0">
+        Home<i class="fas fa-arrow-right"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="archive.html" class="active nav-link px-0">
+        Archive<i class="fas fa-arrow-right"></i>
+      </a>
+    </li>
+    <li>
+      <a
+        href="#submenu1"
+        data-bs-toggle="collapse"
+        class="@@pages nav-link px-0 align-middle"
+      >
+        <span>pages</span> <i class="fas fa-chevron-down"></i>
+      </a>
+      <ul class="collapse submenu" id="submenu1" data-bs-parent="#menu">
+        <li>
+          <a href="elements.html" class="@@elements nav-link px-0">
+            elements
+          </a>
+        </li>
+        <li>
+          <a href="categories.html" class="@@categories nav-link px-0"
+            >categories</a
+          >
+        </li>
+        <li>
+          <a href="blog-single.html" class="@@blog-single nav-link px-0"
+            >Blog Single</a
+          >
+        </li>
+        <li>
+          <a href="404.html" class="@@error nav-link px-0">404</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <p>Copyright: Designed and Developed by furioustheme.com</p>
+</div>
+
+            <div class="offset-md-1 col-md-7">
+                <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">archive</li>
+  </ol>
+</nav>
+                <div class="content">
+                    <div class="single-block">
+                        <h2>december 2021</h2>
+                        <ul>
+                            <li><a href="#">set video playback speed with javascript</a></li>
+                            <li><a href="#">set playback video speed</a></li>
+                            <li><a href="#">set video playback speed with javascript</a></li>
+                        </ul>
+                    </div>
+                    <div class="single-block">
+                        <h2>november 2021</h2>
+                        <ul>
+                            <li><a href="#">playback speed with javascript</a></li>
+                            <li><a href="#">set video playback speed with javascript</a></li>
+                            <li><a href="#">particular or just general Riker-bashing </a></li>
+                            <li><a href="#">Hurdles to mainstream adoption</a></li>
+                        </ul>
+                    </div>
+                    <div class="single-block">
+                        <h2>may 2020</h2>
+                        <ul>
+                            <li><a href="#">I Created a Developer Rap Video - Here's What I Learned</a></li>
+                            <li><a href="#">particular or just general Riker-bashing </a></li>
+                            <li><a href="#">Hurdles to mainstream adoption</a></li>
+                        </ul>
+                    </div>
+                    <div class="single-block">
+                        <h2>march 2020</h2>
+                        <ul>
+                            <li><a href="#">set video playback speed with javascript</a></li>
+                            <li><a href="#">particular or just general Riker-bashing </a></li>
+                            <li><a href="#">Hurdles to mainstream adoption</a></li>
+                        </ul>
+                    </div>
+                    <div class="single-block">
+                        <h2>april 2019</h2>
+                        <ul>
+                            <li><a href="#">playback speed with javascript</a></li>
+                            <li><a href="#">set video playback speed with javascript</a></li>
+                            <li><a href="#">particular or just general Riker-bashing </a></li>
+                            <li><a href="#">Hurdles to mainstream adoption</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================== Section End ==================-->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
